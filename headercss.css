@@ -1,0 +1,84 @@
+/* General Header Styles */
+.custom-navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(226, 89, 89, 0.1);
+    padding: 15px 0;
+    transition: all 0.3s ease;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-navbar .custom-logo img {
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.custom-navbar .custom-logo img:hover {
+    transform: scale(1.1);
+}
+
+.custom-toggler {
+    border: none;
+}
+
+.custom-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba(0,0,0, 0.5)" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.custom-navbar-collapse {
+    text-align: right;
+}
+
+.custom-nav-item .custom-nav-link {
+    color: #343a40;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:0px 5vh;
+    transition: color 0.3s ease;
+    
+}
+
+.custom-nav-item .custom-nav-link:hover {
+    color: #007bff;
+}
+
+.custom-dropdown {
+    text-align: center;
+}
+
+.custom-dropdown-toggle {
+    color: #343a40;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.custom-dropdown-toggle:hover {
+    color: #007bff;
+}
+
+.custom-dropdown-menu .custom-dropdown-item {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.custom-dropdown-menu .custom-dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Progress Bar */
+.custom-progress-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.custom-progress-bar {
+    width: 0%;
+    height: 5px;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+}

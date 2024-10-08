@@ -1,0 +1,54 @@
+/* Import common styles */
+@import url('common-style.css');
+
+/* Add any page-specific styles here */
+.summary {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.summary div {
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.574);
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9faa1;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.transaction-name, .transaction-amount, .transaction-type {
+    font-size: 16px;
+}
+
+.additional-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 100px auto;
+    color: #fff;
+    text-align: left;
+}
+
+.additional-info h2 {
+    color: #fff;
+}
+
+.additional-info p, .additional-info ul {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.additional-info ul li {
+    margin-bottom: 10px;
+}
